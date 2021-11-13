@@ -1,0 +1,18 @@
+server:
+  port: 8705
+  servlet:
+    context-path: /example
+
+kafka:
+  bootstrapAddress: localhost:9092
+
+message:
+  topic:
+    foo: br.lucianoyamane.kafkaexample.topic.foo
+
+group:
+  foo: foo_group_id
+
+testcase:
+  threads: 10
+  requests: 100
